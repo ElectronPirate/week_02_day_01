@@ -5,11 +5,11 @@ this.hungerLevel = hungerLevel;
 }
 Pet.prototype.eatFood = function(food){
   if(this.hungerLevel >= 5){
-  console.log(`${this.name} ate ${this.food}`);
+  console.log(`${this.name} ate ${food}`);
 }else {
   console.log(`${this.name} is not hungry`);
 }
-}
+};
 
 
 
